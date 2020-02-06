@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+/* Tämä tuo Zhi Mang Xing fontin CSS:ään*/
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+/* Tässä Muokataan Bodyn ja HTML:än fonttia, ja väriä */
+
+#ryhma{
+  color: #A3A838;
+  font-style: arial;
+  font-size: 8;
+  text-align: center;
+  background-color: #1D1D1E;
+  padding: 15px 15px 15px 15px;
+}
+/* Tässä Annetaan Lähteet-kohdalle väri ja muokataan fonttia sekä paddingia */
+
+#punttisali{
+  color: #A3A838;
+  text-align: center;
+  background-color: #1D1D1E;
+  padding: 15px 15px 15px 15px;
+}
+/* Tässä Annetaan Painon nosto tekstille väri ja taustaväri, muokataan paddingia sekä keskitetään teksti */
+
+#parkour{
+  color: #A3A838;
+  text-align: center;
+  background-color: #1D1D1E;
+  padding: 15px 15px 15px 15px;
+}
+/* Tässä Annetaan Parkour tekstille väri ja taustaväri, muokataan paddingia sekä keskitetään teksti */
+
+#iso_otsikko{
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #872D62;
+  padding: 5px;
+  margin: 0 700px 0 700px;
+  letter-spacing: 7px;
+}
+/* Tässä Ylimmälle ja alimmalle otsikolle väri ja taustaväri, muokataan paddingia, marginia, kirjainväliä, sekä keskitetään teksti */
+
+h2{
+  font-family: 'Zhi Mang Xing', cursive;
+}
+/* Tässä Annetaan alimmalle otsikolle Fontti */
+
+#otsikko{
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  margin: 0 700px 0 700px;
+  letter-spacing: 7px;
+  font-size: 15;
+}
+/* Tässä annetaan pikku kuvien otsikoille väri, keskitetään teksti,  muokataan paddingia, marginia, kirjainväliä ja fontti kokoa */
+
+#Kuva1, #kuva2, #kuva3, #kuva4{
+  Width: 100%;
+  height: 100%;
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed
+}
+/* Tässä muokataan kaikkien kuvien kokoa, paikkaa, opacitya ja varmistetaan että kuva on keskitetty, ei lisäänny ruudun kasvaessa ja liikkuu kun scrollataan. */
+
+#kuva1{
+  background-image: url(Punttisali.jpg);
+  height: 100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed
+}
+/* Tässä on kuva 1 ja tässä muokataan uudestaan kokoa, ja varmistetaan että kuva ei lisäänny ruudun kasvaessa ja liikkuu kun scrollataan. Jostain syystä tämä kuva ei suotunut toiminaan oikein niin tähän piti laittaa nämä erikseen.*/
+
+#kuva2{
+  background-image: url("punttisali_2.jpg");
+  height: 50%;
+}
+/* Tässä on kuva 2 ja tässä muokataan sen kokoa koska kuva 2 ja 3 ovat kuvia 1 ja 4 pienempiä */
+
+#kuva3{
+  background-image: url("parkour_2.jpg");
+  height: 50%;
+}
+/* Tässä on kuva 3 ja tässä muokataan sen kokoa koska kuva 2 ja 3 ovat kuvia 1 ja 4 pienempiä */
+
+#kuva4{
+  background-image: url("parkour.jpg");
+  height: 100%;
+  /* Tässä on kuva 4 ja tässä lisäsin kuvan pituuden varmuuden vuoksi. */
+}
+
+@media(max-width:568px){
+  #kuva1, #kuva2, #kuva3, #kuva4{
+    background-attachment:scroll;
+  }
+  /* Tässä Teksti pysyy ruudulla vaikka zoomaisi tai käyttäisi pienempää näyttöä, kuten kännykkää.  */
