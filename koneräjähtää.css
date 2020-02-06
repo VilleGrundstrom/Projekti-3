@@ -16,7 +16,7 @@ body, html{
   font-style: arial;
   font-size: 8;
   text-align: center;
-  background-color: #1D1D1E;
+  background-color: #F3007C;
   padding: 15px 15px 15px 15px;
 }
 /* Tässä Annetaan Lähteet-kohdalle väri ja muokataan fonttia sekä paddingia */
@@ -24,13 +24,13 @@ body, html{
 #punttisali{
   color: #A3A838;
   text-align: center;
-  background-color: #1D1D1E;
+  background-color: #F84DA4;
   padding: 15px 15px 15px 15px;
 }
 /* Tässä Annetaan Painon nosto tekstille väri ja taustaväri, muokataan paddingia sekä keskitetään teksti */
 
 #parkour{
-  color: #A3A838;
+  color: #F97DBC;
   text-align: center;
   background-color: #1D1D1E;
   padding: 15px 15px 15px 15px;
