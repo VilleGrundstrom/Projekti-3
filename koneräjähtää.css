@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
 /* Tämä tuo Zhi Mang Xing fontin CSS:ään*/
+
 body, html{
   height:100%;
   margin:0;
@@ -53,9 +54,13 @@ h2{
   font-family: 'Zhi Mang Xing', cursive;
   padding-top: 30px;
 }
+/* Tässä Annetaan alimmalle otsikolle Fontti */
+
 h1{
   padding-top: 30px;
 }
+/* Tässä ensimmäinen otsikko keskitetään */
+
 #eborder{
   width: 300px;
   height: 100px;
@@ -65,7 +70,7 @@ h1{
   horizontal-align: middle;
   margin: 0 auto;
 }
-/* Tässä Annetaan alimmalle otsikolle Fontti */
+/* Tämä antaa ylimmälle ja alimmalle otsikolle tausta värin */
 
 #otsikko{
   color: #000000;
@@ -92,7 +97,6 @@ h1{
        width: 100%;
        height: 50vh;
        text-align: center;
-
 }
 /* Tässä muokataan kaikkien kuvien kokoa, paikkaa, opacitya ja varmistetaan että kuva on keskitetty, ei lisäänny ruudun kasvaessa ja liikkuu kun scrollataan. */
 
@@ -101,7 +105,6 @@ h1{
   height: 100vh;
   background-repeat:no-repeat;
   background-attachment:fixed;
-
 }
 /* Tässä on kuva 1 ja tässä muokataan uudestaan kokoa, ja varmistetaan että kuva ei lisäänny ruudun kasvaessa ja liikkuu kun scrollataan. Jostain syystä tämä kuva ei suotunut toiminaan oikein niin tähän piti laittaa nämä erikseen.*/
 
@@ -121,8 +124,8 @@ h1{
 #kuva4{
   background-image: url("parkour.jpg");
   height: 100vh;
-  /* Tässä on kuva 4 ja tässä lisäsin kuvan pituuden varmuuden vuoksi. */
 }
+/* Tässä on kuva 4 ja tässä lisäsin kuvan pituuden varmuuden vuoksi. */
 
 @media(max-width:568px){
   #kuva1, #kuva2, #kuva3, #kuva4{
